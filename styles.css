@@ -11,7 +11,7 @@
 
 body{
     color: black;
-    background-color: white;
+    background-color: var(--main-bg);
     margin: 0;
     padding: 0;
 }
@@ -31,8 +31,6 @@ body::-webkit-scrollbar-thumb{
 main{
     margin-left: 5rem;
     padding: 1rem;
-    background: var(--main-bg);
-    height: 100vh;
 }
 
 main h1{
