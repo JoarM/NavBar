@@ -45,7 +45,8 @@ main p{
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 200ms ease;
-    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .navbar-nav{
